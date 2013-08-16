@@ -2,7 +2,7 @@
 //  main.m
 //  DatePickerWithDate
 //
-//  Created by Amrita Gosh on 24/05/11.
+//  Created by Chakra on 24/05/11.
 //  Copyright 2011 Chakra Interactive Pvt Ltd. All rights reserved.
 //
 

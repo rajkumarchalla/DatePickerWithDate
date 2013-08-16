@@ -16,6 +16,7 @@
 		F0B1B571138B83ED00A58B7B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B1B56F138B83ED00A58B7B /* MainWindow.xib */; };
 		F0B1B574138B83EE00A58B7B /* DatePickerWithDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B1B573138B83EE00A58B7B /* DatePickerWithDateViewController.m */; };
 		F0B1B577138B83EE00A58B7B /* DatePickerWithDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B1B575138B83EE00A58B7B /* DatePickerWithDateViewController.xib */; };
+		F0B1B57E138B852F00A58B7B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B1B57D138B852F00A58B7B /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		F0B1B55D138B83ED00A58B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0B1B55F138B83ED00A58B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0B1B561138B83ED00A58B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0B1B565138B83ED00A58B7B /* DatePickerWithDate-Info.plist */ = {isa = PBXFileReference; path = "DatePickerWithDate-Info.plist"; sourceTree = "<group>"; };
+		F0B1B565138B83ED00A58B7B /* DatePickerWithDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatePickerWithDate-Info.plist"; sourceTree = "<group>"; };
 		F0B1B567138B83ED00A58B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0B1B569138B83ED00A58B7B /* DatePickerWithDate-Prefix.pch */ = {isa = PBXFileReference; path = "DatePickerWithDate-Prefix.pch"; sourceTree = "<group>"; };
+		F0B1B569138B83ED00A58B7B /* DatePickerWithDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePickerWithDate-Prefix.pch"; sourceTree = "<group>"; };
 		F0B1B56A138B83ED00A58B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0B1B56C138B83ED00A58B7B /* DatePickerWithDateAppDelegate.h */ = {isa = PBXFileReference; path = DatePickerWithDateAppDelegate.h; sourceTree = "<group>"; };
+		F0B1B56C138B83ED00A58B7B /* DatePickerWithDateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerWithDateAppDelegate.h; sourceTree = "<group>"; };
 		F0B1B56D138B83ED00A58B7B /* DatePickerWithDateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerWithDateAppDelegate.m; sourceTree = "<group>"; };
 		F0B1B570138B83ED00A58B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F0B1B572138B83EE00A58B7B /* DatePickerWithDateViewController.h */ = {isa = PBXFileReference; path = DatePickerWithDateViewController.h; sourceTree = "<group>"; };
+		F0B1B572138B83EE00A58B7B /* DatePickerWithDateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerWithDateViewController.h; sourceTree = "<group>"; };
 		F0B1B573138B83EE00A58B7B /* DatePickerWithDateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerWithDateViewController.m; sourceTree = "<group>"; };
 		F0B1B576138B83EE00A58B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatePickerWithDateViewController.xib; sourceTree = "<group>"; };
+		F0B1B57D138B852F00A58B7B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		F0B1B564138B83ED00A58B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0B1B57D138B852F00A58B7B /* 1.png */,
 				F0B1B565138B83ED00A58B7B /* DatePickerWithDate-Info.plist */,
 				F0B1B566138B83ED00A58B7B /* InfoPlist.strings */,
 				F0B1B569138B83ED00A58B7B /* DatePickerWithDate-Prefix.pch */,
@@ -154,6 +157,7 @@
 				F0B1B568138B83ED00A58B7B /* InfoPlist.strings in Resources */,
 				F0B1B571138B83ED00A58B7B /* MainWindow.xib in Resources */,
 				F0B1B577138B83EE00A58B7B /* DatePickerWithDateViewController.xib in Resources */,
+				F0B1B57E138B852F00A58B7B /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +245,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DatePickerWithDate/DatePickerWithDate-Prefix.pch";
 				INFOPLIST_FILE = "DatePickerWithDate/DatePickerWithDate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DatePickerWithDate/DatePickerWithDate-Prefix.pch";
 				INFOPLIST_FILE = "DatePickerWithDate/DatePickerWithDate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
